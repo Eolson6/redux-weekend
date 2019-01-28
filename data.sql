@@ -11,8 +11,9 @@ CREATE TABLE "feedback" (
   "comments" text,
   "flagged" boolean default false,
   "date" date not null default CURRENT_DATE
+  "name" text,
 ); 
 
 -- Sample feedback item
-INSERT INTO "feedback" ("feeling", "understanding", "support", "comments")
-VALUES (4, 4, 5, 'Doing Great!');
+INSERT INTO "feedback" ("feeling", "understanding", "support", "comments", "name")
+VALUES (4, 4, 5, 'Doing Great!', 'Erin');

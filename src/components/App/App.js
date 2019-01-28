@@ -11,7 +11,6 @@ import SubmitForm from '../SubmitForm/SubmitForm.js';
 import Header from '../Header/Header.js';
 import Review from '../Review/Review.js';
 import SubmissionSuccess from '../SubmissionSuccess/SubmissionSuccess.js'
-import HomePage from '../HomePage/HomePage.js'
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 function MyApp() {
